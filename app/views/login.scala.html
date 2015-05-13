@@ -1,0 +1,22 @@
+@(loginForm: Form[User])
+
+@import helper._
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ncBox</title>
+</head>
+<body>
+@form(routes.Application.authenticate) {
+<h1>ncBox</h1>
+<h2>ログイン</h2>
+@inputText(loginForm("name"))
+@inputPassword(loginForm("password"))
+<p>
+    <button type="submit">Login</button>
+</p>
+}
+</body>
+</html>
