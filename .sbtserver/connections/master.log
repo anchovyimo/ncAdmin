@@ -51,3 +51,6 @@ New client attempting to connect on port: 49319-49314
 This client on port 49319 has uuid 5deb9187-d15e-44cf-b078-73810945f79f configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
 Connected Clients: activator-0ac1125c-116f-414c-af80-27c0d350a90f, activator-a070b6d2-03c4-4930-8d01-5be4c211a435, play-fork-run-5deb9187-d15e-44cf-b078-73810945f79f
 Taking next connection to: 49314
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 49314
