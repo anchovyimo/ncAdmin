@@ -28,4 +28,17 @@ public class Application extends Controller {
         return redirect(routes.Application.index());
     }
 
+    public static Result addUser() {
+        User user = User.find.where().eq("name", "admin").findUnique();
+        if (user == null) {
+            User.create("admin", "password123");
+        }
+        return redirect(routes.Application.login());
+    }
+
+    public static Result logout() {
+        session().clear();
+        return redirect(routes.Application.login());
+    }
+
 }

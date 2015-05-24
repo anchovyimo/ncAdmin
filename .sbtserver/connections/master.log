@@ -1,13 +1,13 @@
-New log file opened at Thu May 14 00:00:49 JST 2015 by 7760@kengo-PCn
-Taking next connection to: 61783
-New client attempting to connect on port: 61784-61783
-  Address = /192.168.169.1:61783
-This client on port 61784 has uuid d9762eaa-22d2-494f-8e11-1246d72e6a9b configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-d9762eaa-22d2-494f-8e11-1246d72e6a9b
-Taking next connection to: 61783
-New client attempting to connect on port: 61785-61783
-  Address = /192.168.169.1:61783
-Handshake exception on socket: 61785
+New log file opened at Sun May 24 14:29:24 JST 2015 by 8940@kengo-PCn
+Taking next connection to: 49314
+New client attempting to connect on port: 49315-49314
+  Address = /192.168.169.1:49314
+This client on port 49315 has uuid 0ac1125c-116f-414c-af80-27c0d350a90f configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-0ac1125c-116f-414c-af80-27c0d350a90f
+Taking next connection to: 49314
+New client attempting to connect on port: 49316-49314
+  Address = /192.168.169.1:49314
+Handshake exception on socket: 49316
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -22,18 +22,15 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 61783
-New client attempting to connect on port: 61786-61783
-  Address = /192.168.169.1:61783
-This client on port 61786 has uuid f997fb8a-c9f7-4fc1-b39d-64c979be9a98 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-d9762eaa-22d2-494f-8e11-1246d72e6a9b, activator-f997fb8a-c9f7-4fc1-b39d-64c979be9a98
-Taking next connection to: 61783
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 61783
-New client attempting to connect on port: 61905-61783
-  Address = /192.168.169.1:61783
-Handshake exception on socket: 61905
+Taking next connection to: 49314
+New client attempting to connect on port: 49317-49314
+  Address = /192.168.169.1:49314
+This client on port 49317 has uuid a070b6d2-03c4-4930-8d01-5be4c211a435 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-0ac1125c-116f-414c-af80-27c0d350a90f, activator-a070b6d2-03c4-4930-8d01-5be4c211a435
+Taking next connection to: 49314
+New client attempting to connect on port: 49318-49314
+  Address = /192.168.169.1:49314
+Handshake exception on socket: 49318
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -48,12 +45,9 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 61783
-New client attempting to connect on port: 61906-61783
-  Address = /192.168.169.1:61783
-This client on port 61906 has uuid 1835e46c-c962-4581-8d42-01a754f40436 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-f997fb8a-c9f7-4fc1-b39d-64c979be9a98, play-fork-run-1835e46c-c962-4581-8d42-01a754f40436
-Taking next connection to: 61783
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 61783
+Taking next connection to: 49314
+New client attempting to connect on port: 49319-49314
+  Address = /192.168.169.1:49314
+This client on port 49319 has uuid 5deb9187-d15e-44cf-b078-73810945f79f configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-0ac1125c-116f-414c-af80-27c0d350a90f, activator-a070b6d2-03c4-4930-8d01-5be4c211a435, play-fork-run-5deb9187-d15e-44cf-b078-73810945f79f
+Taking next connection to: 49314
