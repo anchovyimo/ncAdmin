@@ -4,10 +4,9 @@
 # --- !Ups
 
 create table user (
-  id                        bigint auto_increment not null,
-  name                      varchar(255),
+  name                      varchar(255) not null,
   password                  varchar(255),
-  constraint pk_user primary key (id))
+  constraint pk_user primary key (name))
 ;
 
 

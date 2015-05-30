@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+@(user: User)
+
+@main(user) {
+
 <head>
-    <meta charset="UTF-8">
     <title>TOP</title>
 </head>
 <body>
-<p>hello world!</p>
-</body>
-<body>
 <ul>
-    <li><a href="@routes.Application.logout">logout</a></li>
+    <p>hello world!</p>
 </ul>
+<a href="@routes.Application.logout()">Logout</a>
 </body>
-</html>
+
+}

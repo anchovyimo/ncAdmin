@@ -7,20 +7,19 @@ import play.db.ebean.*;
 import play.data.format.*;
 import play.data.validation.*;
 
+import com.avaje.ebean.*;
+
 @Entity
 public class User extends Model {
 
     @Id
-    @Constraints.Min(10)
-    public Long id;
-
     @Constraints.Required
     public String name;
 
     public String password;
 
-    public static Finder<Long, User> find = new Finder<Long,User>(
-            Long.class, User.class
+    public static Finder<String, User> find = new Finder<String,User>(
+            String.class, User.class
     );
 
     public static void create(String name, String password) {

@@ -1,13 +1,13 @@
-New log file opened at Sun May 24 14:29:24 JST 2015 by 8940@kengo-PCn
-Taking next connection to: 49314
-New client attempting to connect on port: 49315-49314
-  Address = /192.168.169.1:49314
-This client on port 49315 has uuid 0ac1125c-116f-414c-af80-27c0d350a90f configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-0ac1125c-116f-414c-af80-27c0d350a90f
-Taking next connection to: 49314
-New client attempting to connect on port: 49316-49314
-  Address = /192.168.169.1:49314
-Handshake exception on socket: 49316
+New log file opened at Sat May 30 15:13:06 JST 2015 by 7204@kengo-PCn
+Taking next connection to: 61574
+New client attempting to connect on port: 61576-61574
+  Address = /192.168.169.1:61574
+This client on port 61576 has uuid 7f0d8f63-d40e-4721-bdc4-be7f29c609ca configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-7f0d8f63-d40e-4721-bdc4-be7f29c609ca
+Taking next connection to: 61574
+New client attempting to connect on port: 61577-61574
+  Address = /192.168.169.1:61574
+Handshake exception on socket: 61577
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -22,15 +22,21 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 49314
-New client attempting to connect on port: 49317-49314
-  Address = /192.168.169.1:49314
-This client on port 49317 has uuid a070b6d2-03c4-4930-8d01-5be4c211a435 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-0ac1125c-116f-414c-af80-27c0d350a90f, activator-a070b6d2-03c4-4930-8d01-5be4c211a435
-Taking next connection to: 49314
-New client attempting to connect on port: 49318-49314
-  Address = /192.168.169.1:49314
-Handshake exception on socket: 49318
+Taking next connection to: 61574
+New client attempting to connect on port: 61578-61574
+  Address = /192.168.169.1:61574
+This client on port 61578 has uuid 33eac2ee-735f-4695-9dc4-f9bbd2953036 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-7f0d8f63-d40e-4721-bdc4-be7f29c609ca, activator-33eac2ee-735f-4695-9dc4-f9bbd2953036
+Taking next connection to: 61574
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61574
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61574
+New client attempting to connect on port: 61611-61574
+  Address = /192.168.169.1:61574
+Handshake exception on socket: 61611
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -45,39 +51,12 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 49314
-New client attempting to connect on port: 49319-49314
-  Address = /192.168.169.1:49314
-This client on port 49319 has uuid 5deb9187-d15e-44cf-b078-73810945f79f configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-0ac1125c-116f-414c-af80-27c0d350a90f, activator-a070b6d2-03c4-4930-8d01-5be4c211a435, play-fork-run-5deb9187-d15e-44cf-b078-73810945f79f
-Taking next connection to: 49314
+Taking next connection to: 61574
+New client attempting to connect on port: 61612-61574
+  Address = /192.168.169.1:61574
+This client on port 61612 has uuid 5aa5a8f0-7cf6-47ae-b925-7f690e1407f1 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-33eac2ee-735f-4695-9dc4-f9bbd2953036, play-fork-run-5aa5a8f0-7cf6-47ae-b925-7f690e1407f1
+Taking next connection to: 61574
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 49314
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 49314
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 49314
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 49314
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 49314
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 49314
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 49314
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 49314
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 49314
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 49314
+Taking next connection to: 61574

@@ -5,13 +5,16 @@ import play.mvc.*;
 import play.data.*;
 
 import views.html.*;
-
+import static play.data.Form.*;
 import models.*;
 
 public class Application extends Controller {
 
+    @Security.Authenticated(Secured.class)
     public static Result index() {
-        return ok(index.render());
+        return ok(index.render(
+                User.find.byId(request().username())
+        ));
     }
 
     public static Result login() {
